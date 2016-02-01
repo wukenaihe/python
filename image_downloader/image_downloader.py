@@ -18,13 +18,8 @@ os.environ["https_proxy"]="web-proxy.oa.com:8080"
 # urllib2.install_opener(opener)
 
 
-_top_url="http://cl.1024s.info"
+_top_url=""
 
-def get_caoliu_rul():
-    _urls=[]
-    with urllib2.urlopen('http://cl.1024s.info/index.php') as content:
-        for line in file:
-            print line
 
 
 def request_url(url):
